@@ -24,7 +24,7 @@ i
 	"Full_name":"Eugene Makarov",
 	"Age":"23",
 	"Marital":"married",
-	"Desired salary":"1000"
+	"Desired_salary":"1000"
 }
 Esc
 :wq
