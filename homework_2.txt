@@ -21,7 +21,7 @@ git push
 vim new.json
 i
 {
-	"Full name":"Eugene Makarov",
+	"Full_name":"Eugene Makarov",
 	"Age":"23",
 	"Marital":"married",
 	"Desired salary":"1000"
@@ -43,11 +43,11 @@ touch preferences.json
 vim preferences.json
 i
 {
-	"Favorite movie":"Interstellar",
-	"Favorite series":"Limitless",
-	"Favorite food":"Mashed potatoes with chicken",
-	"Favorite season":"Summer",
-	"Country I want to visit":"Japan"
+	"Favorite_movie":"Interstellar",
+	"Favorite_series":"Limitless",
+	"Favorite_food":"Mashed potatoes with chicken",
+	"Favorite_season":"Summer",
+	"Favorite_country":"Japan"
 }
 Esc
 :wq
@@ -57,23 +57,23 @@ touch skills.json
 vim skills.json
 i
 {
-	"1":"Theory of software testing and quality assurance",
-	"2":"Clent-server architecture",
-	"3":"HTTP request methods",
-	"4":"JSON, XML",
-	"5":"Postman",
-	"6":"Charles, Fiddler",
-	"7":"Dev Tools",
-	"8":"VPN",
-	"9":"Mobile testing",
-	"10":"Android Studio",
-	"11":"Terminal",
-	"12":"SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
-	"13":"Postgress",
-	"14":"Redis",
-	"15":"Jmeter",
-	"16":"Scrum",
-	"17":"Python"
+	"Skill_1":"Theory of software testing and quality assurance",
+	"Skill_2":"Clent-server architecture",
+	"Skill_3":"HTTP request methods",
+	"Skill_4":"JSON, XML",
+	"Skill_5":"Postman",
+	"Skill_6":"Charles, Fiddler",
+	"Skill_7":"Dev Tools",
+	"Skill_8":"VPN",
+	"Skill_9":"Mobile testing",
+	"Skill_10":"Android Studio",
+	"Skill_11":"Terminal",
+	"Skill_12":"SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
+	"Skill_13":"Postgress",
+	"Skill_14":"Redis",
+	"Skill_15":"Jmeter",
+	"Skill_16":"Scrum",
+	"Skill_17":"Python"
 }
 Esc
 :wq
