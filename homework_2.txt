@@ -1,3 +1,5 @@
+JSON
+
 Создать внешний репозиторий c названием JSON.
 +
 -----
@@ -97,4 +99,104 @@ git push
 -----
 Синхронизировать внешний и локальный репозиторий JSON
 git pull
+----------
+
+XML
+
+Создать внешний репозиторий c названием XML.
++
 -----
+Клонировать репозиторий XML на локальный компьютер.
+git clone https://github.com/ArterMidyme/XML.git
+-----
+Внутри локального XML создать файл “new.xml”.
+touch new.xml
+-----
+Добавить файл под гит.
+git add new.xml
+-----
+Закоммитить файл.
+git commit -m "Create new.xml"
+-----
+Отправить файл на внешний GitHub репозиторий.
+git push
+-----
+Отредактировать содержание файла “new.xml” - написать информацию о себе 
+(ФИО, возраст, семейное положение, будущая желаемая зарплата). 
+Всё написать в формате XML.
+vim new.xml
+i
+<?xml version="1.0" encoding="UTF-8"?>
+<full_name>Eugene Makarov</full_name>
+<age>23</age>
+<marital>married</marital>
+<desired_salary>1000</desired_salary>
+Esc
+:wq
+-----
+Отправить изменения на внешний репозиторий.
+git add new.xml
+git commit -m "Update new.xml"
+git push
+-----
+Создать файл preferences.xml
+touch preferences.xml
+-----
+В файл preferences.xml добавить информацию о своих предпочтениях 
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, 
+сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml
+i
+<?xml version="1.0" encoding="UTF-8"?>
+<favorite_movie>Interstellar</favorite_movie>
+<favorite_series>Limitless</favorite_series>
+<favorite_food>Mashed potatoes with chicken</favorite_food>
+<favorite_season>Summer</favorite_season>
+<favorite_country>Japan</favorite_country>
+Esc
+:wq
+-----
+Создать файл sklls.xml добавить информацию о скиллах,
+которые будут изучены на курсе в формате XML
+vim skills.xml
+i
+<?xml version="1.0" encoding="UTF-8"?>
+<skill_1>Theory of software testing and quality assurance</skill_1>
+<skill_2>Clent-server architecture</skill_2>
+<skill_3>HTTP request methods</skill_3>
+<skill_4>JSON, XML</skill_4>
+<skill_5>Postman</skill_5>
+<skill_6>Charles, Fiddler</skill_6>
+<skill_7>Dev Tools</skill_7>
+<skill_8>VPN</skill_8>
+<skill_9>Mobile testing</skill_9>
+<skill_10>Android Studio</skill_10>
+<skill_11>Terminal</skill_11>
+<skill_12>SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</skill_12>
+<skill_13>Postgress</skill_13>
+<skill_14>Redis</skill_14>
+<skill_15>Jmeter</skill_15>
+<skill_16>Scrum</skill_16>
+<skill_17>Python</skill_17>
+Esc
+:wq
+-----
+Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git commit -m "Create preferences.xml and skills.xml"
+git push
+-----
+На веб интерфейсе создать файл bug_report.xml.
++
+-----
+Сделать Commit changes (сохранить) изменения на веб интерфейсе.
++
+-----
+На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
++
+-----
+Сделать Commit changes (сохранить) изменения на веб интерфейсе.
++
+-----
+Синхронизировать внешний и локальный репозиторий XML
+git pull
