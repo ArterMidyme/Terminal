@@ -23,10 +23,13 @@ git push
 vim new.json
 i
 {
-	"Full_name":"Eugene Makarov",
-	"Age":"23",
-	"Marital":"married",
-	"Desired_salary":"1000"
+	"Person":
+		{
+		"Full_name":"Eugene Makarov",
+		"Age":"23",
+		"Marital":"married",
+		"Desired_salary":"1000" 
+		}
 }
 Esc
 :wq
@@ -45,11 +48,14 @@ touch preferences.json
 vim preferences.json
 i
 {
-	"Favorite_movie":"Interstellar",
-	"Favorite_series":"Limitless",
-	"Favorite_food":"Mashed potatoes with chicken",
-	"Favorite_season":"Summer",
-	"Favorite_country":"Japan"
+	"Preferences":	
+		{
+		"Favorite_movie":"Interstellar",
+		"Favorite_series":"Limitless",
+		"Favorite_food":"Mashed potatoes with chicken",
+		"Favorite_season":"Summer",
+		"Favorite_country":"Japan"
+		}
 }
 Esc
 :wq
@@ -59,24 +65,28 @@ touch skills.json
 vim skills.json
 i
 {
-	"Skill_1":"Theory of software testing and quality assurance",
-	"Skill_2":"Clent-server architecture",
-	"Skill_3":"HTTP request methods",
-	"Skill_4":"JSON, XML",
-	"Skill_5":"Postman",
-	"Skill_6":"Charles, Fiddler",
-	"Skill_7":"Dev Tools",
-	"Skill_8":"VPN",
-	"Skill_9":"Mobile testing",
-	"Skill_10":"Android Studio",
-	"Skill_11":"Terminal",
-	"Skill_12":"SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
-	"Skill_13":"Postgress",
-	"Skill_14":"Redis",
-	"Skill_15":"Jmeter",
-	"Skill_16":"Scrum",
-	"Skill_17":"Python"
+	"Skills": 
+		{	
+		"Skill_1":"Theory of software testing and quality assurance",
+		"Skill_2":"Clent-server architecture",
+		"Skill_3":"HTTP request methods",
+		"Skill_4":"JSON, XML",
+		"Skill_5":"Postman",
+		"Skill_6":"Charles, Fiddler",
+		"Skill_7":"Dev Tools",
+		"Skill_8":"VPN",
+		"Skill_9":"Mobile testing",
+		"Skill_10":"Android Studio",
+		"Skill_11":"Terminal",
+		"Skill_12":"SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
+		"Skill_13":"Postgress",
+		"Skill_14":"Redis",
+		"Skill_15":"Jmeter",
+		"Skill_16":"Scrum",
+		"Skill_17":"Python"
+		}	
 }
+
 Esc
 :wq
 -----
@@ -127,10 +137,12 @@ git push
 vim new.xml
 i
 <?xml version="1.0" encoding="UTF-8"?>
-<full_name>Eugene Makarov</full_name>
-<age>23</age>
-<marital>married</marital>
-<desired_salary>1000</desired_salary>
+<person>
+	<full_name>Eugene Makarov</full_name>
+	<age>23</age>
+	<marital>married</marital>
+	<desired_salary>1000</desired_salary>
+</person>
 Esc
 :wq
 -----
@@ -148,11 +160,13 @@ touch preferences.xml
 vim preferences.xml
 i
 <?xml version="1.0" encoding="UTF-8"?>
-<favorite_movie>Interstellar</favorite_movie>
-<favorite_series>Limitless</favorite_series>
-<favorite_food>Mashed potatoes with chicken</favorite_food>
-<favorite_season>Summer</favorite_season>
-<favorite_country>Japan</favorite_country>
+<preferences>
+	<favorite_movie>Interstellar</favorite_movie>
+	<favorite_series>Limitless</favorite_series>
+	<favorite_food>Mashed potatoes with chicken</favorite_food>
+	<favorite_season>Summer</favorite_season>
+	<favorite_country>Japan</favorite_country>
+</preferences>
 Esc
 :wq
 -----
@@ -161,23 +175,25 @@ Esc
 vim skills.xml
 i
 <?xml version="1.0" encoding="UTF-8"?>
-<skill_1>Theory of software testing and quality assurance</skill_1>
-<skill_2>Clent-server architecture</skill_2>
-<skill_3>HTTP request methods</skill_3>
-<skill_4>JSON, XML</skill_4>
-<skill_5>Postman</skill_5>
-<skill_6>Charles, Fiddler</skill_6>
-<skill_7>Dev Tools</skill_7>
-<skill_8>VPN</skill_8>
-<skill_9>Mobile testing</skill_9>
-<skill_10>Android Studio</skill_10>
-<skill_11>Terminal</skill_11>
-<skill_12>SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</skill_12>
-<skill_13>Postgress</skill_13>
-<skill_14>Redis</skill_14>
-<skill_15>Jmeter</skill_15>
-<skill_16>Scrum</skill_16>
-<skill_17>Python</skill_17>
+<skills>
+	<skill_1>Theory of software testing and quality assurance</skill_1>
+	<skill_2>Clent-server architecture</skill_2>
+	<skill_3>HTTP request methods</skill_3>
+	<skill_4>JSON, XML</skill_4>
+	<skill_5>Postman</skill_5>
+	<skill_6>Charles, Fiddler</skill_6>
+	<skill_7>Dev Tools</skill_7>
+	<skill_8>VPN</skill_8>
+	<skill_9>Mobile testing</skill_9>
+	<skill_10>Android Studio</skill_10>
+	<skill_11>Terminal</skill_11>
+	<skill_12>SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</skill_12>
+	<skill_13>Postgress</skill_13>
+	<skill_14>Redis</skill_14>
+	<skill_15>Jmeter</skill_15>
+	<skill_16>Scrum</skill_16>
+	<skill_17>Python</skill_17>
+</skills>
 Esc
 :wq
 -----
