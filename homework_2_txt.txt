@@ -1,0 +1,96 @@
+TXT
+
+Создать внешний репозиторий c названием TXT.
++
+-----
+Клонировать репозиторий TXT на локальный компьютер.
+git clone https://github.com/ArterMidyme/TXT.git
+-----
+Внутри локального TXT создать файл “new.txt”.
+touch new.txt
+-----
+Добавить файл под гит.
+git add new.txt
+-----
+Закоммитить файл.
+git commit -m "Create new.txt"
+-----
+Отправить файл на внешний GitHub репозиторий.
+git push
+-----
+Отредактировать содержание файла “new.txt” - написать информацию о себе 
+(ФИО, возраст, семейное положение, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.txt
+i
+Full name: Eugene Makarov
+Age: 23
+Marital: married
+Desired salary: 1000
+Esc
+:wq
+-----
+Отправить изменения на внешний репозиторий.
+git add new.txt
+git commit -m "Update new.txt"
+git push
+-----
+Создать файл preferences.txt
+touch preferences.txt
+-----
+В файл preferences.txt добавить информацию о своих предпочтениях 
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) 
+в формате TXT.
+vim preferences.txt
+i
+Favorite movie: Interstellar
+Favorite series: Limitless
+Favorite food: Mashed potatoes with chicken
+Favorite season: Summer
+Favorite country: Japan
+Esc
+:wq
+-----
+Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+touch skills.txt
+vim skills.txt
+i
+Skill 1: Theory of software testing and quality assurance
+Skill 2: Clent-server architecture
+Skill 3: HTTP request methods
+Skill 4: JSON, XML
+Skill 5: Postman
+Skill 6: Charles, Fiddler
+Skill 7: Dev Tools
+Skill 8: VPN
+Skill 9: Mobile testing
+Skill 10: Android Studio
+Skill 11: Terminal
+Skill 12: SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)
+Skill 13: Postgress
+Skill 14: Redis
+Skill 15: Jmeter
+Skill 16: Scrum
+Skill 17: Python
+Esc
+:wq
+-----
+Сделать коммит в одну строку.
+git commit -am "Create preferences.txt and skills.txt"
+-----
+Отправить сразу 2 файла на внешний репозиторий.
+git push
+-----
+На веб интерфейсе создать файл bug_report.txt.
++
+-----
+Сделать Commit changes (сохранить) изменения на веб интерфейсе.
++
+-----
+На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
++
+-----
+Сделать Commit changes (сохранить) изменения на веб интерфейсе.
++
+-----
+Синхронизировать внешний и локальный репозиторий TXT
+git pull
